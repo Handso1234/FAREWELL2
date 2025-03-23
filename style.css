@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Baloo+2:wght@500&display=swap');
+
+body {
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  background-color: #FF4500;
+  padding: 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero {
+  background: url('images/background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  color: #FFD700;
+  text-shadow: 3px 3px 15px #FF4500;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.btn {
+  background-color: #FF4500;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #FFD700;
+  color: black;
+}
+
+.container {
+  padding: 60px;
+  text-align: center;
+}
+
+h2 {
+  color: #FFD700;
+}
+
+.event-img {
+  width: 80%;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.event-img:hover {
+  transform: scale(1.05);
+}
